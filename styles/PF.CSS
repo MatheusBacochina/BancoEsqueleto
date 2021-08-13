@@ -6,9 +6,10 @@
 
 body {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.788);
+    height: 100vh;
 }
 
 header {
@@ -66,14 +67,13 @@ main {
     margin-top: 20px;
     width: 300px;
     max-width: 900px;
-    padding: 0 0 0 10px;
     display: flex;
     max-width: 70vw;
     justify-content: flex-start;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-form {
+.form-user {
     display: flex;
     flex-direction: column;
     margin-top: 40px;
@@ -115,3 +115,4 @@ input:active {
 .input-bnt {
     margin-bottom: 10px;
 }
+
