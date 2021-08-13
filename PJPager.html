@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/PF.CSS">
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo"></div>
+        </nav>
+    </header>
+    <main>
+        <div onclick="ToLocal('./index.html')" class="back-seta">
+            <button></button>
+            <h4>Keyloger</h4>
+        </div>
+        <div class="login-key-txt">
+            Login Keycloak
+        </div>
+        <div class="form-user">
+
+            <h4>Cliente</h4>
+            <input id="userName" class="input-bnt" type="text">
+            <h4>Senha</h4>
+            <input id="passwrd" type="password">
+
+            <button onclick="loginUser()" class="bnt-acss">Acessar</button>
+            <span style="font-family: 'Courier New', Courier, monospace; margin-top: 4px;"></span>
+        </div>
+
+    </main>
+    <script src="./js/local.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/Alert.js"></script>
+
+</body>
+
+</html>
